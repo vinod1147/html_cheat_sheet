@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #272822;
+    color: white;
+    height: 56px;
+}
+
+.content {
+    font-family: 'Potta One', cursive
+}
+
+.container {
+    font-weight: bold;
+    width: 50vw;
+    padding: 32px 0px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;}
+
+.logo {
+    padding: 0 23px 0;
+}
+
+
+.logo img {
+    width: 34px;
+    /* height: 32px; */
+}
+
+.toolbar-item button {
+    cursor: pointer !important;
+    color: white !important;
+    border: 2px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
+
+/* @media only screen and (max-width: 430px) {
+    body {
+      background-color: lightblue;
+    }
+    .container {
+        width: 80% !important;
+    }
+  } */
+/* 
+@media only screen and (max-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+    .container {
+        width: 80% !important;
+    }
+  } */
+
+@media only screen and (max-width: 550px) {
+    body {
+      background-color: lightblue;
+    }
+    .container {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    body {
+      background-color: lightblue;
+    }
+    .container {
+        width: 80% !important;
+    }
+    .toolbar-item button  {
+        width: 100% !important;
+        margin-top: 8px;
+        border: 0.2px solid;
+    }
+}
